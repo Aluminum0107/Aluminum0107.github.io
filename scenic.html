@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>赣州景点 - 郁孤台·八境台·浮桥</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: "微软雅黑", Arial, sans-serif; line-height: 1.8; color: #333; }
+        .nav { background: #2c3e50; padding: 16px 0; position: sticky; top: 0; z-index: 999; }
+        .nav-container { max-width: 1200px; margin: 0 auto; text-align: center; }
+        .nav a { color: #fff; text-decoration: none; margin: 0 25px; font-size: 18px; transition: color 0.3s; }
+        .nav a:hover { color: #f39c12; }
+        /* 景点容器 */
+        .scenic-container { max-width: 1200px; margin: 40px auto; padding: 0 20px; }
+        .scenic-title { text-align: center; color: #2c3e50; font-size: 28px; margin-bottom: 50px; padding-bottom: 15px; border-bottom: 2px solid #f39c12; }
+        .scenic-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 40px; }
+        .scenic-item { background: #fff; border-radius: 10px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); overflow: hidden; transition: transform 0.3s; }
+        .scenic-item:hover { transform: translateY(-5px); }
+        .scenic-item img { width: 100%; height: 250px; object-fit: cover; }
+        .scenic-info { padding: 25px; }
+        .scenic-info h3 { color: #2c3e50; font-size: 22px; margin-bottom: 15px; }
+        .scenic-info p { color: #555; font-size: 16px; line-height: 1.7; text-align: justify; }
+        .footer { background: #f8f9fa; padding: 25px 0; text-align: center; margin-top: 60px; border-top: 1px solid #eee; }
+        .footer p { color: #777; font-size: 15px; }
+    </style>
+</head>
+<body>
+    <div class="nav">
+    <div class="nav-container">
+        <a href="index.html">返回首页</a>
+        <a href="scenic.html">景点介绍</a>
+        <a href="food.html">赣州美食</a>
+        <a href="history.html">历史故事</a>
+        <a href="location.html">地理位置</a>
+    </div>
+</div>
+
+    <div class="scenic-container">
+        <h2 class="scenic-title">赣州核心景点 · 文脉与烟火并存</h2>
+
+        <!-- 郁孤台 -->
+        <div class="scenic-item">
+            <img src="家乡介绍图片/郁孤台.jpeg" alt="赣州郁孤台" width="500" height="653" title="郁孤台·宋词圣地">
+            <div class="scenic-info">
+              <h3>郁孤台</h3>
+                <p>郁孤台始建于唐代，海拔131米，为赣州城制高点。因南宋词人辛弃疾登临此处写下“郁孤台下清江水，中间多少行人泪”的千古名句而名扬天下。台体为仿宋建筑，飞檐翘角，古朴庄重。登台远眺，章贡合流、古城全貌尽收眼底，清风徐来，仿佛能听见千年宋词的回响，是赣州文脉传承的核心地标。</p>
+          </div>
+      </div>
+
+        <!-- 八境台 -->
+        <div class="scenic-item">
+            <img src="家乡介绍图片/八镜台.jpeg" alt="赣州八境台" title="八境台·三江汇流">
+            <div class="scenic-info">
+              <h3>八境台</h3>
+                <p>八境台始建于北宋嘉祐年间，由赣州知州孔宗翰主持修建，因能观赏“赣州八景”而得名。台高28.5米，为三层仿宋楼阁式建筑，红墙黛瓦，气势恢宏。其最独特之处在于地处章江、贡江交汇处，登台可赏“三江汇流”的壮丽奇观——清澈的章江与浑浊的贡江在此相融，泾渭分明，最终汇入赣江。台内陈列着赣州历史文物，是感受宋城文化的必访之地。</p>
+          </div>
+      </div>
+
+        <!-- 浮桥 -->
+        <div class="scenic-item">
+            <img src="家乡介绍图片/浮桥.jpeg" alt="赣州浮桥" title="古浮桥·烟火人间">
+            <div class="scenic-info">
+              <h3>赣州古浮桥</h3>
+                <p>赣州古浮桥又名“惠民桥”，始建于南宋乾道年间，距今已有800多年历史。桥长约400米，由100余只木船并排连接，上铺木板，用铁索固定在江两岸，是古代赣州城的重要交通要道。如今，浮桥仍保持着原始风貌，行人、自行车往来穿梭，岸边有渔民叫卖、市民休憩，烟火气息浓厚。漫步桥上，江风拂面，可近距离感受赣江的灵动，体验“船在水中走，人在画中游”的独特韵味，是赣州活着的“历史化石”。</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2025 赣州旅游官方网站 | 江南宋城 · 客家摇篮</p>
+    </div>
+</body>
+</html>

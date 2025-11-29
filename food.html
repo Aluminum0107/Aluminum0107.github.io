@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>赣州美食 - 客家风味与本地特色</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: "微软雅黑", Arial, sans-serif; line-height: 1.8; color: #333; }
+        .nav { background: #2c3e50; padding: 16px 0; position: sticky; top: 0; z-index: 999; }
+        .nav-container { max-width: 1200px; margin: 0 auto; text-align: center; }
+        .nav a { color: #fff; text-decoration: none; margin: 0 25px; font-size: 18px; transition: color 0.3s; }
+        .nav a:hover { color: #f39c12; }
+        /* 美食容器 */
+        .food-container { max-width: 1200px; margin: 40px auto; padding: 0 20px; }
+        .food-title { text-align: center; color: #2c3e50; font-size: 28px; margin-bottom: 50px; padding-bottom: 15px; border-bottom: 2px solid #f39c12; }
+        .food-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 35px; }
+        .food-item { background: #fff; border-radius: 10px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); padding: 25px; text-align: center; }
+        .food-item h3 { color: #e74c3c; font-size: 20px; margin-bottom: 15px; }
+        .food-item p { color: #666; font-size: 16px; line-height: 1.7; text-align: justify; }
+        /* 美食配图（可选） */
+        .food-img { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; margin-bottom: 20px; }
+        .footer { background: #f8f9fa; padding: 25px 0; text-align: center; margin-top: 60px; border-top: 1px solid #eee; }
+        .footer p { color: #777; font-size: 15px; }
+    </style>
+</head>
+<body>
+    <div class="nav">
+    <div class="nav-container">
+        <a href="index.html">返回首页</a>
+        <a href="scenic.html">景点介绍</a>
+        <a href="food.html">赣州美食</a>
+        <a href="history.html">历史故事</a>
+        <a href="location.html">地理位置</a>
+    </div>
+</div>
+
+    <div class="food-container">
+        <h2 class="food-title">赣州美食 · 舌尖上的客家风味</h2>
+
+        <div class="food-list">
+            <!-- 客家酿豆腐 -->
+            <div class="food-item">
+                <img src="家乡介绍图片/客家酿豆腐.jpeg" alt="客家酿豆腐" class="food-img" title="客家酿豆腐">
+                <h3>客家酿豆腐</h3>
+                <p>赣州客家菜的代表作，将嫩豆腐切成小块，挖去中间部分，填入由猪肉、香菇、虾米、葱花等调制的馅料，煎至两面金黄后加水焖煮，最后勾芡收汁。成品外焦里嫩，豆腐吸满肉香，咸鲜入味，寓意“团圆美满”，是客家宴席上不可或缺的招牌菜，承载着客家人的思乡之情。</p>
+          </div>
+
+            <!-- 赣南脐橙 -->
+            <div class="food-item">
+                <img src="家乡介绍图片/赣南脐橙.jpeg" alt="赣南脐橙" class="food-img" title="赣南脐橙">
+                <h3>赣南脐橙</h3>
+                <p>赣州最著名的特产，因产自赣南丘陵地带，光照充足、土壤肥沃，造就了其“果大皮薄、汁多味甜”的特点。果实色泽橙红鲜艳，果肉细嫩化渣，富含维生素C，被誉为“中华名果”。每年11-12月是采摘季，不仅是赣州人的日常水果，更是远销国内外的“甜蜜名片”，是赣州地理标志产品。</p>
+          </div>
+
+            <!-- 赣州炒粉干 -->
+            <div class="food-item">
+                <img src="家乡介绍图片/炒米粉.jpg" alt="赣州炒粉干" class="food-img" title="赣州炒粉干">
+                <h3>赣州炒粉干</h3>
+                <p>赣州人早餐和夜宵的首选，选用本地生产的粉干，泡软后沥干，与鸡蛋、瘦肉、青菜、豆芽、萝卜干等配料一同爆炒，加入生抽、蚝油、辣椒等调味。成品油光发亮，根根分明，咸香带辣，口感筋道有嚼劲，充满烟火气息。街头巷尾的炒粉店总能看到排队的人群，是最接地气的赣州风味。</p>
+          </div>
+
+            <!-- 赣州鱼饼 -->
+            <div class="food-item">
+                <img src="家乡介绍图片/鱼饼.jpg" alt="赣州鱼饼" class="food-img" title="赣州鱼饼">
+                <h3>赣州鱼饼</h3>
+                <p>以赣江新鲜草鱼为原料，去骨取肉，剁成鱼泥，加入淀粉、蛋清、盐、葱花等调料，搅拌上劲后捏成小圆饼，油炸至金黄酥脆。鱼饼外酥里嫩，鲜香四溢，可直接食用，也可用来炒菜、煮汤，口感Q弹，无腥味。是赣州传统小吃，也是客家宴席上的常见菜品，体现了客家人对食材的巧妙运用。</p>
+          </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2025 赣州旅游官方网站 | 江南宋城 · 客家摇篮</p>
+    </div>
+</body>
+</html>

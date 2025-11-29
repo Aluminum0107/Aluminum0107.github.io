@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>赣州地理 - 江南宋城的区位优势</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: "微软雅黑", Arial, sans-serif; line-height: 1.8; color: #333; }
+        .nav { background: #2c3e50; padding: 16px 0; position: sticky; top: 0; z-index: 999; }
+        .nav-container { max-width: 1200px; margin: 0 auto; text-align: center; }
+        .nav a { color: #fff; text-decoration: none; margin: 0 25px; font-size: 18px; transition: color 0.3s; }
+        .nav a:hover { color: #f39c12; }
+        /* 地理页面样式 */
+        .location-container { max-width: 1200px; margin: 40px auto; padding: 0 20px; }
+        .location-title { text-align: center; color: #2c3e50; font-size: 28px; margin-bottom: 50px; padding-bottom: 15px; border-bottom: 2px solid #f39c12; }
+        .location-content { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
+        @media (max-width: 768px) {
+            .location-content { grid-template-columns: 1fr; } /* 手机端单列布局 */
+        }
+        .location-img img { width: 100%; height: auto; border-radius: 10px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); }
+        .location-text { background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); }
+        .location-text h3 { color: #2980b9; font-size: 22px; margin-bottom: 20px; }
+        .location-text p { color: #555; font-size: 16px; line-height: 1.8; margin-bottom: 20px; text-align: justify; }
+        .location-highlight { background: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 30px; }
+        .location-highlight h4 { color: #e74c3c; font-size: 18px; margin-bottom: 15px; }
+        .location-highlight ul { list-style: none; display: flex; flex-wrap: wrap; gap: 15px; }
+        .location-highlight li { background: #fff; padding: 8px 15px; border-radius: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); color: #666; }
+        .footer { background: #f8f9fa; padding: 25px 0; text-align: center; margin-top: 60px; border-top: 1px solid #eee; }
+        .footer p { color: #777; font-size: 15px; }
+    </style>
+</head>
+<body>
+    <!-- 导航栏：新增「地理位置」链接，所有页面保持一致 -->
+    <div class="nav">
+        <div class="nav-container">
+            <a href="index.html">返回首页</a>
+            <a href="scenic.html">景点介绍</a>
+            <a href="food.html">赣州美食</a>
+            <a href="history.html">历史故事</a>
+            <a href="location.html">地理位置</a>
+        </div>
+    </div>
+
+    <div class="location-container">
+        <h2 class="location-title">赣州地理 - 三江交汇的客家枢纽</h2>
+
+        <div class="location-content">
+            <!-- 地理位置配图 -->
+            <div class="location-img">
+                <img src="家乡介绍图片/地理位置.jpeg" alt="赣州地理位置地图" title="赣州区位示意图">
+            </div>
+
+            <!-- 地理位置详细描述 -->
+            <div class="location-text">
+              <h3>核心区位：江西南部的门户城市</h3>
+                <p>赣州位于中国华东地区、江西省南部，俗称“赣南”，地理坐标介于东经113°54′-116°38′、北纬24°29′-27°09′之间。东接福建省三明市、龙岩市，南连广东省梅州市、河源市、韶关市，西靠湖南省郴州市，北邻江西省吉安市、抚州市，是江西的“南大门”，也是闽、粤、赣三省交界的区域性中心城市。</p>
+                <p>赣州辖区面积39379.64平方千米，是江西省面积最大的地级市，占全省总面积的23.6%。境内地形以丘陵、山地为主，占总面积的80%以上，地势由南向北倾斜，章江、贡江穿境而过，在赣州城区交汇后汇入赣江，形成“三江六岸”的独特地貌，也造就了赣州“山水相依、城江相融”的城市格局。</p>
+                <p>作为长江经济带重要节点城市和赣粤闽湘四省通衢，赣州的交通十分便捷：赣深高铁、京九铁路贯穿南北，济广高速、大广高速等多条高速纵横交错，赣州黄金机场开通了至北京、上海、广州等多地的航线，是连接东南沿海与内陆腹地的重要交通枢纽。</p>
+
+                <!-- 区位优势亮点 -->
+                <div class="location-highlight">
+                    <h4>地理位置优势</h4>
+                    <ul>
+                        <li>闽粤赣三省交界核心</li>
+                        <li>赣江源头生态屏障</li>
+                        <li>客家文化交汇中心</li>
+                        <li>东南沿海辐射内陆枢纽</li>
+                        <li>山地丘陵与江河平原并存</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2025 赣州旅游官方网站 | 江南宋城 · 客家摇篮</p>
+    </div>
+</body>
+</html>
+
+三、同步更新原有 4 个页面的导航栏（关键！）
+需要在 index.html、scenic.html、food.html、history.html 这 4 个页面的导航栏中，新增「地理位置」链接，确保全局跳转正常。以下是导航栏统一修改后的代码（替换原有导航栏部分）：
+html
+预览
+<!-- 导航栏：新增「地理位置」链接 -->
+<div class="nav">
+    <div class="nav-container">
+        <a href="index.html">返回首页</a>
+        <a href="scenic.html">景点介绍</a>
+        <a href="food.html">赣州美食</a>
+        <a href="history.html">历史故事</a>
+        <a href="location.html">地理位置</a>
+    </div>
+</div>
